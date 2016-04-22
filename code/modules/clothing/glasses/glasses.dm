@@ -7,7 +7,7 @@
 	vision_flags = SEE_TURFS
 	eyeprot = -1
 	see_invisible = SEE_INVISIBLE_MINIMUM
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 	action_button_name = "Toggle Meson Scanner"
 	var/on = 1
 
@@ -52,7 +52,7 @@
 	desc = "Optical Meson Scanner with prescription lenses."
 	prescription = 1
 	eyeprot = -1
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 /obj/item/clothing/glasses/science
 	name = "Science Goggles"
@@ -69,7 +69,7 @@
 	origin_tech = "magnets=2"
 	see_invisible = SEE_INVISIBLE_OBSERVER_NOLIGHTING
 	see_in_dark = 8
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 	eyeprot = -1
 
 /obj/item/clothing/glasses/eyepatch
@@ -84,7 +84,7 @@
 	desc = "Such a dapper eyepiece!"
 	icon_state = "monocle"
 	item_state = "headset" // lol
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 	min_harm_label = 3
 	harm_label_examine = list("<span class='info'>A tiny label is on the lens.</span>","<span class='warning'>A label covers the lens!</span>")
 /obj/item/clothing/glasses/monocle/harm_label_update()
@@ -98,7 +98,7 @@
 	origin_tech = "magnets=3;engineering=3"
 	vision_flags = SEE_OBJS
 	see_invisible = SEE_INVISIBLE_MINIMUM
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 /obj/item/clothing/glasses/regular
 	name = "Prescription Glasses"
@@ -136,7 +136,7 @@
 	origin_tech = "combat=2"
 	darkness_view = -1
 	eyeprot = 1
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 /obj/item/clothing/glasses/sunglasses/kick_act(mob/living/carbon/human/H)
 	H.visible_message("<span class='danger'>[H] stomps on \the [src], crushing them!</span>", "<span class='danger'>You crush \the [src] under your foot.</span>")
@@ -154,7 +154,7 @@
 	item_state = "sunglasses"
 	origin_tech = "combat=2"
 	darkness_view = -1
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 /obj/item/clothing/glasses/welding
 	name = "welding goggles"
@@ -165,7 +165,7 @@
 	action_button_name = "Toggle Welding Goggles"
 	var/up = 0
 	eyeprot = 3
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 /obj/item/clothing/glasses/welding/proc/getMask()
 	return global_hud.darkMask
@@ -217,19 +217,19 @@
 	see_invisible = SEE_INVISIBLE_LIVING
 	vision_flags = BLIND
 	eyeprot = 4 //What you can't see can't burn your eyes out
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 	min_harm_label = 0
 
 /obj/item/clothing/glasses/sunglasses/prescription
 	name = "prescription sunglasses"
 	prescription = 1
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 /obj/item/clothing/glasses/sunglasses/big
 	desc = "Strangely ancient technology used to help provide rudimentary eye cover. Larger than average enhanced shielding blocks many flashes."
 	icon_state = "bigsunglasses"
 	item_state = "bigsunglasses"
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 	min_harm_label = 15
 
 /obj/item/clothing/glasses/sunglasses/sechud
@@ -237,7 +237,7 @@
 	desc = "Sunglasses with a HUD."
 	icon_state = "sunhud"
 	var/obj/item/clothing/glasses/hud/security/hud = null
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 	New()
 		..()
@@ -272,7 +272,7 @@
 	desc = "Used for seeing walls, floors, and stuff through anything."
 	icon_state = "meson"
 	origin_tech = "magnets=3;syndicate=4"
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 /obj/item/clothing/glasses/thermal/monocle
 	name = "Thermonocle"
@@ -313,7 +313,7 @@
 	desc = "A set of implantable lenses designed to augment your vision"
 	icon_state = "thermalimplants"
 	item_state = "syringe_kit"
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 
 /obj/item/clothing/glasses/simonglasses
 	name = "Simon's Glasses"
