@@ -145,7 +145,7 @@
 	desc = "An advanced helmet designed for work in special operations. Property of Gorlex Marauders."
 	icon_state = "rig0-syndi"
 	item_state = "syndie_helm"
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 	_color = "syndi"
 	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 35, bio = 100, rad = 60)
 	action_button_name = "Toggle Helmet Camera" //This helmet does not have a light, but we'll do as if
@@ -175,7 +175,7 @@
 	name = "blood-red hardsuit"
 	desc = "An advanced suit that protects against injuries during special operations. Property of Gorlex Marauders."
 	item_state = "syndie_hardsuit"
-	species_fit = list("Vox")
+	species_fit = list("Vox","Skeletal Vox")
 	slowdown = 1
 	w_class = 3
 	armor = list(melee = 60, bullet = 50, laser = 30, energy = 15, bomb = 35, bio = 100, rad = 60)
